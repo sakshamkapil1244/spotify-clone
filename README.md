@@ -2,7 +2,7 @@ Spotify Clone
 A web-based music interface inspired by Spotify that showcases playlists, trending tracks, and a responsive player layout. It is optimized for modern browsers and provides a consistent experience across mobile phones, tablets, laptops, and desktops on Windows, macOS, iOS, and Android.
 
 Live demo
-Play now: https://aslivashu.github.io/Spotify-Clone/
+Play now: https://sakshamkapil244.github.io/Spotify-Clone/
 Key features
 Responsive, mobile‑first UI with a dark theme modeled after contemporary streaming services.
 Landing dashboard sections for Recently Played, Trending, and Featured charts.
