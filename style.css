@@ -223,7 +223,7 @@ body {
     align-items: center;
     gap: 15px;
 }
-/* --- MOBILE RESPONSIVENESS FIX --- */
+/*  MOBILE RESPONSIVENESS FIX  */
 
 /* 1. Cards ko wrap karne ke liye taki phone par gayab na hon */
 .recent-row, .trending-row, .more-row {
