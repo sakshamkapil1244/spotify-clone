@@ -223,4 +223,37 @@ body {
     align-items: center;
     gap: 15px;
 }
+/* --- MOBILE RESPONSIVENESS FIX --- */
 
+/* 1. Cards ko wrap karne ke liye taki phone par gayab na hon */
+.recent-row, .trending-row, .more-row {
+    display: flex;
+    flex-wrap: wrap; /* Isse cards niche ki line mein aa jayenge */
+    justify-content: center; /* Mobile par center dikhenge */
+    gap: 15px;
+}
+
+/* 2. Mobile par hover ki jagah icon hamesha dikhao */
+@media (max-width: 768px) {
+    .card .play-icon {
+        opacity: 1 !important; /* Mobile par hamesha dikhega */
+        bottom: 10px !important; /* Position fix */
+        transform: translateY(0) !important;
+    }
+
+    /* Sidebar ko mobile par chhota ya hide karne ke liye */
+    .sidebar {
+        display: none; /* Mobile par sidebar hide ho jayega taki cards dikhein */
+    }
+    
+    .main-content {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    /* Cards ka size mobile ke hisaab se */
+    .card {
+        width: 45% !important; /* Ek line mein 2 cards dikhenge */
+        min-width: 150px;
+    }
+}
